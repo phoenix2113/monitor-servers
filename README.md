@@ -1,1 +1,2 @@
-# monitor-servers
+# monitor-server
+Consider there are N number of servers, say [ Server1, Server2, Server3.....]. Implement a solution to monitor all the servers programmatically. Each server would consist of 3 URLs to be monitored, say [URL1, URL2, URL3]. For monitoring, a tag will be attached to each server with true or false value to define whether the Server needs to be monitored or not. In DB, two tables are required for tracking the server details and monitoring details.

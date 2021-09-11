@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div>
+    <form onsubmit="submitForm(event)" id="form">
+        <p>Update Server Details</p>
+        <label for="serverName">First name:</label><br/>
+        <input type="text" id="serverName" name="serverName" value="John"><br/>
+        <label for="urlS">Last name:</label><br/>
+        <input type="text" id="urlS" name="urlS" value="Doe"><br/>
+        <label for="freq">Last name:</label><br/>
+        <input type="text" id="freq" name="freq" value="Doe"><br/>
+        <p>Update Tag Value</p>
+        <label for="server1">Last name:</label><br/>
+        <input type="text" id="server1" name="server1" value="Doe"><br/><br/>
+        <label for="serverTag">Last name:</label><br/>
+        <input type="text" id="serverTag" name="serverTag" value="Doe"><br/>
+        <input type="submit" value="Download">
+    </form>
+    <button onclick="saveValue()">Save</button>
+    </div>
+</body>
+</html>
