@@ -1,4 +1,10 @@
 Server Name,URLs,Frequency(min)
-Server 1,https://docs.python.org/3/library/email.html;https://fjsdlfj.com,2
-Server 2,https://www.geeksforgeeks.org/set-add-python/;https://fjsdlfj.com,2
-Server 3,https://google.com;https://fjsdlfj.com,2
+Server 1,https://docs.python.org/3/library/email.html;https://fjsdlfj.com,1
+Server 2,https://www.geeksforgeeks.org/set-add-python/;https://fjsdlfj.com,1
+Server 3,https://google.com;https://fjsdlfj.com,1
+Server 4,https://docs.python.org/3/library/email.html;https://fjsdlfj.com,1
+Server 5,https://www.geeksforgeeks.org/set-add-python/;https://fjsdlfj.com,1
+Server 6,https://google.com;https://fjsdlfj.com,1
+Server 7,https://docs.python.org/3/library/email.html;https://fjsdlfj.com,1
+Server 8,https://www.geeksforgeeks.org/set-add-python/;https://fjsdlfj.com,1
+Server 9,https://google.com;https://fjsdlfj.com,1
