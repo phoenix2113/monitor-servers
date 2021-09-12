@@ -19,9 +19,9 @@ def server_response(x,duration):
                     updatedList.append([url,result,str(datetime.datetime.now()).replace(" ","-")])
                 except urllib.error.HTTPError as error:
                     result = error.code
-                    send_email() 
+                    # send_email() 
                 except urllib.error.URLError as error:
-                    send_email()
+                    # send_email()
                     result= error.reason
         
             duration = duration-frequency
