@@ -19,11 +19,12 @@ def server_response(x,duration):
                     updatedList.append([url,result,str(datetime.datetime.now()).replace(" ","-")])
                 except urllib.error.HTTPError as error:
                     result = error.code
+                    print("404 {}".format(result))
                     # send_email() 
                 except urllib.error.URLError as error:
                     # send_email()
                     result= error.reason
-        
+                    print("404 {}".format(result))
             duration = duration-frequency
             time.sleep(frequency*60)
         update_result(updatedList)
